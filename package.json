@@ -1,0 +1,7 @@
+{
+    "name": "framework-simplelink",
+    "description": "TI Simplelink CC13xx CC26xx SDK",
+    "url": "https://github.com/JerryMS/private-projects",
+    "system": "*",
+    "version": "1.0.0"
+}
