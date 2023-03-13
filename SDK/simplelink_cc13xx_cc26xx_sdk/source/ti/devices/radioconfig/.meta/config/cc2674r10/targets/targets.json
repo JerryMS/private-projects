@@ -1,0 +1,9 @@
+{
+    "targets": {
+        "Default": "target_lp_cc2674r10.json",
+        "Target": [
+            "target_lp_cc2674r10.json",
+            "target_lp_em_cc2674r10.json"
+        ]
+    }
+}
