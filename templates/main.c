@@ -43,7 +43,13 @@
 /* Example/Board Header files */
 #include "ti_drivers_config.h"
 
-extern void *mainThread(void *arg0);
+void mainThread(void *arg0)
+{
+    while(1)
+    {
+        ;
+    }
+}
 
 /*
  *  ======== main ========
