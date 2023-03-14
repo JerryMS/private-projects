@@ -45,9 +45,14 @@
 
 void mainThread(void *arg0)
 {
+    uint8_t counter = 0;
     while(1)
     {
-        ;
+        usleep(100000);
+        GPIO_toggle(CONFIG_GPIO_GLED);
+        if (0 == counter % 2)
+            GPIO_toggle(CONFIG_GPIO_RLED);
+        counter = (counter + 1) % 4;
     }
 }
 
