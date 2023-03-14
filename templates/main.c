@@ -36,6 +36,7 @@
  */
 #include <stdint.h>
 #include <stddef.h>
+#include <unistd.h>
 
 #include <NoRTOS.h>
 #include <ti/drivers/GPIO.h>
